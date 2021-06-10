@@ -1,0 +1,16 @@
+Unreal Engine Game
+
+Characters:1st person shooter/racer
+
+Story:Stuck on an island with violent treasure hunters. You must sneak into their camp and steal their helicoptor/plane. you get caught and locked up so you must escape.
+
+Goal:Complete all the levels/escape the island
+
+Undecided:
+-Why are you on island?
+-How did you get on the island?
+-Why are they trying to kill you?
+-Why dont they kill you upon capture?
+-What is the characters appearance?
+-What does the island look like?
+-What are reasonable obstacles to face?

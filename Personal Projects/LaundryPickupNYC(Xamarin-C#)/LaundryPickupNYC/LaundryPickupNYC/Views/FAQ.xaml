@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LaundryPickupNYC"
+             x:Class="LaundryPickupNYC.Views.FAQ"
+             Title="{Binding Title}">
+
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="white">
+            <Frame BackgroundColor="White" Padding="2" CornerRadius="0">
+                <AbsoluteLayout>
+                    <Label Text="FAQ" HorizontalTextAlignment="Center" TextColor="#1c2f74" FontSize="18" AbsoluteLayout.LayoutBounds="165,5,75,35"/>
+                    <Image Source="{local:ImageResource LaundryPickupNYC.Images.logosmall.jpeg}" AbsoluteLayout.LayoutBounds="350,0,50,50"
+               HeightRequest="40" />
+                </AbsoluteLayout>
+            </Frame>
+            <Label Text="FREQUENTLY ASKED QUESTIONS" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10" TextColor="#1c2f74"/>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <ListView SeparatorVisibility="Default" SeparatorColor="#1c2f74">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String >How do i schedule a pick?</x:String>
+                            <x:String>Can you collect from one location and deliver to another?</x:String>
+                            <x:String>What happens if I miss a collection or delivery?</x:String>
+                            <x:String>Can i receive a delivery if im not home?</x:String>
+                            <x:String>What if I need to change or cancel my order?</x:String>
+                            <x:String>How will I know how much my order is?</x:String>
+                            <x:String>How do I pay?</x:String>
+                            <x:String>Can I tip my driver?</x:String>
+
+
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="End" Padding="10">
+                <Button Text="Place New Order" Clicked="NavigateBook_OnClicked" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

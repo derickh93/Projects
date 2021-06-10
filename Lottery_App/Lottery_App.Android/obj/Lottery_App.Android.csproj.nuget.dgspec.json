@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.Android\\Lottery_App.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.Android\\Lottery_App.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.Android\\Lottery_App.Android.csproj",
+        "projectName": "Lottery_App.Android",
+        "projectPath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.Android\\Lottery_App.Android.csproj",
+        "packagesPath": "C:\\Users\\cooli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cooli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/tK2bSqkdkZPnTnQo5z6gjC1abMQkguEQZNTYDVmsTGXO2d7mDw/api": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\Lottery_App.csproj": {
+                "projectPath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\Lottery_App.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "CSM.SodaDotNet": {
+              "target": "Package",
+              "version": "[0.10.1, )"
+            },
+            "CSM.SodaDotNet.Utilities": {
+              "target": "Package",
+              "version": "[0.10.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1451, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\Lottery_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\Lottery_App.csproj",
+        "projectName": "Lottery_App",
+        "projectPath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\Lottery_App.csproj",
+        "packagesPath": "C:\\Users\\cooli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cooli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/tK2bSqkdkZPnTnQo5z6gjC1abMQkguEQZNTYDVmsTGXO2d7mDw/api": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CSM.SodaDotNet": {
+              "target": "Package",
+              "version": "[0.10.1, )"
+            },
+            "CSM.SodaDotNet.Utilities": {
+              "target": "Package",
+              "version": "[0.10.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1451, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

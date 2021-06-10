@@ -1,0 +1,48 @@
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.Resource1.resources
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.csproj.GenerateResource.cache
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Booking.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Contact_US.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\FAQ.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\HowItWorks.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Pricing.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Terms.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\WashnFold.xaml.g.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+C:\Users\THE BOSS\Desktop\Current Working Folder\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.csprojAssemblyReference.cache
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.Resource1.resources
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.csproj.GenerateResource.cache
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Booking.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Contact_US.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\FAQ.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\HowItWorks.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\Pricing.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\ResetPW.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\WashnFold.xaml.g.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+C:\Users\cooli\Desktop\Working Folder(Master)\Github\Full-Stack-Developer\Xamarin\App1\App1\obj\Debug\netstandard2.0\App1.pdb

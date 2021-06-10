@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "q7GW/OEvkcRmf33YQ0yWjeaZBNakrkekgl1t3Sggxo0f0uAqjV22+CUmI9rtw9ynGn49gpUnMIiwOH5uz/iUMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cooli\\Desktop\\Lottery_App\\Lottery_App.iOS\\Lottery_App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cooli\\.nuget\\packages\\csm.sodadotnet\\0.10.1\\csm.sodadotnet.0.10.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\csm.sodadotnet.utilities\\0.10.1\\csm.sodadotnet.utilities.0.10.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\microsoft.exchange.webservices.netstandard\\1.1.3\\microsoft.exchange.webservices.netstandard.1.1.3.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.security.cryptography.xml\\4.4.0\\system.security.cryptography.xml.4.4.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

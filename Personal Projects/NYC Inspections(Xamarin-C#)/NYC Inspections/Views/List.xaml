@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NYC_Inspections.Views.List">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entry" Placeholder="Restaurant Search" PlaceholderColor="Gray" TextColor="Black"></Entry>
+            <Button Text="Search" Clicked="Button_Clicked_Search" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Filter" Clicked="Button_Clicked_Filter"  BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand" />
+            <Button Text="Clear Filter" Clicked="Button_Clicked_Reset" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand" />
+
+            <ListView x:Name="listRestaurants" SeparatorVisibility="Default" SeparatorColor="DarkGoldenrod">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding ImageUri}" Text="{Binding Dba}" TextColor="Black"
+                                  Detail="{Binding GradeDate}" DetailColor="Black" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="View on map" Clicked="Button_Clicked_Map" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,211 @@
+{
+  "version": 2,
+  "dgSpecHash": "RrkRIWHOSklYTcE/gkI5JL66XKJQi5tfelnobRdxwOFeMyzgn4ItGvVpEciyPy7KJkeoqW9wmdIDEgLWmFg4/w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\cooli\\Desktop\\Working Folder(Master)\\Github\\Projects\\NYC Restaurant Inspections\\NYC Restaurant Inspections.iOS\\NYC Restaurant Inspections.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cooli\\.nuget\\packages\\csm.sodadotnet\\0.10.1\\csm.sodadotnet.0.10.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\csm.sodadotnet.utilities\\0.10.1\\csm.sodadotnet.utilities.0.10.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\microsoft.exchange.webservices.netstandard\\1.1.3\\microsoft.exchange.webservices.netstandard.1.1.3.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.security.cryptography.xml\\4.4.0\\system.security.cryptography.xml.4.4.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.android.support.design\\28.0.0.1\\xamarin.android.support.design.28.0.0.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.android.support.v4\\28.0.0.1\\xamarin.android.support.v4.28.0.0.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.android.support.v7.appcompat\\28.0.0.1\\xamarin.android.support.v7.appcompat.28.0.0.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.android.support.v7.cardview\\28.0.0.1\\xamarin.android.support.v7.cardview.28.0.0.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.android.support.v7.mediarouter\\28.0.0.1\\xamarin.android.support.v7.mediarouter.28.0.0.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.build.download\\0.4.11\\xamarin.build.download.0.4.11.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.google.ios.maps\\3.5.0\\xamarin.google.ios.maps.3.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v4 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Xamarin.Android.Support.v4 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.Design 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Xamarin.Android.Support.Design 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.CardView 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Xamarin.Android.Support.v7.CardView 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v4 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Xamarin.Android.Support.v4 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.Design 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Xamarin.Android.Support.Design 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.CardView 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Xamarin.Android.Support.v7.CardView 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v4 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Xamarin.Android.Support.v4 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.Design 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Xamarin.Android.Support.Design 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.CardView 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Xamarin.Android.Support.v7.CardView 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Xamarin.Android.Support.v7.MediaRouter 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Xamarin.Android.Support.v7.AppCompat 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v4 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Xamarin.Android.Support.v4 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.Design 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Xamarin.Android.Support.Design 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Xamarin.Android.Support.v7.CardView 28.0.0.1 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Xamarin.Android.Support.v7.CardView 28.0.0.1 supports:\r\n  - monoandroid60 (MonoAndroid,Version=v6.0)\r\n  - monoandroid70 (MonoAndroid,Version=v7.0)\r\n  - monoandroid71 (MonoAndroid,Version=v7.1)\r\n  - monoandroid80 (MonoAndroid,Version=v8.0)\r\n  - monoandroid81 (MonoAndroid,Version=v8.1)\r\n  - monoandroid90 (MonoAndroid,Version=v9.0)",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

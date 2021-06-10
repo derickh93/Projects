@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "uQrhH8SfJ0/oJqdX14nSS5zjStXVxVa8OCoPf3vR7zSCwZOETtAbYNkKpT1qzT+reaHfkGZ65u9/lPCXLae7og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cooli\\Desktop\\Working Folder(Master)\\Github\\Projects\\Laundry Pickup NYC\\App1\\App1\\App1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cooli\\.nuget\\packages\\firebaseauthentication.net\\3.4.0\\firebaseauthentication.net.3.4.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\thrivegmbh.bottomnavigationbar.latest\\1.0.6\\thrivegmbh.bottomnavigationbar.latest.1.0.6.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "C:\\Users\\cooli\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ThriveGmbH.BottomNavigationBar.LATEST 1.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.LATEST",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

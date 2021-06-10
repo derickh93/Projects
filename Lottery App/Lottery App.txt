@@ -1,0 +1,16 @@
+Lottery App
+
+Best cross platform solution? xamarin/react native
+
+features:
+-scrollable list of options that cascade
+-randome numbers for every major category
+-visit addiction site
+-call addiction hotline
+-view each site
+-view past numbers in app
+-visuals/ui
+-logo
+-custom formulas
+-realm db usage
+-api usage

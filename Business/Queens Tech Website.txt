@@ -1,0 +1,22 @@
+Website for Business
+
+-front end? html/css
+-backend? javascript/nodejs
+host? aws,google,duda,wordpress
+
+Queens Tech LLC?
+
+-Review LLC application
+-organize provided services
+	-smart home
+	-security
+	-computer repair
+	-computer upgrade
+	-computer builds
+	-data recovery
+	-build website
+	-build applications
+	-design software
+-new business cards
+-business loans
+-business account

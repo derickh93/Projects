@@ -1,0 +1,13 @@
+Unity Game
+
+Characters:Driving Game
+
+Story: Open world driving game
+
+Goal:open world driving game with optional races at designated map areas
+
+Undecided:
+-how to handle upgrading car?
+-leveling system
+-a.i for other racers
+-car options

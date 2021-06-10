@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LaundryPickupNYC"
+             x:Class="LaundryPickupNYC.Views.WashnFold">
+
+
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="white">
+            <Frame BackgroundColor="White" Padding="2" CornerRadius="0">
+                <AbsoluteLayout>
+                    <Label Text="Pricing: Wash &amp; Fold" HorizontalTextAlignment="Center" TextColor="#1c2f74" FontSize="18" AbsoluteLayout.LayoutBounds="165,5,75,75"/>
+                    <Image Source="{local:ImageResource LaundryPickupNYC.Images.logosmall.jpeg}" AbsoluteLayout.LayoutBounds="350,0,50,50"
+               HeightRequest="40" />
+                </AbsoluteLayout>
+            </Frame>
+            <StackLayout Margin="20,35,20,20">
+                <ListView>
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Wash &amp; Fold:10lb Minimum                               $25.00</x:String>
+                            <x:String>Wash &amp; Fold: Per Pound (after 10lbs)                 $1.49</x:String>
+                            <x:String>Wash &amp; Fold: Free &amp; Clear                                     $0.10</x:String>
+                            <x:String>Wash &amp; Fold: Downy Scent                                   $0.10</x:String>
+                            <x:String>Wash &amp; Fold: Dreft Detergent                               $0.10</x:String>
+                            <x:String>Wash &amp; Fold: Oxyclean                                          $0.10</x:String>
+                            <x:String>Wash &amp; Fold:  Medium Dry                                    $0.10</x:String>
+                            <x:String>Wash &amp; Fold: Hang Dry                                          $0.50</x:String>
+                            <x:String>Wash &amp; Fold: Cold Air tumble dry                        $0.50</x:String>
+                            <x:String>Wash &amp; Fold: Hang dry on our hangers              $1.00</x:String>
+                            <x:String>Comforter King                                                     $14.00</x:String>
+                            <x:String>Comforter Full/Queen                                         $12.00</x:String>
+                            <x:String>Regular Blanket                                                    $12.00</x:String>
+                            <x:String>Comforter Twin                                                    $10.00</x:String>
+                            <x:String>Small Blanket                                                        $10.00</x:String>
+                            <x:String>Mattress Cover                                                    $12.00</x:String>
+                            <x:String>Down Twin Comforter                                         $16.00</x:String>
+                            <x:String>Down Full/Queen Comforter                              $18.00</x:String>
+                            <x:String>Down King Comforter                                          $24.00</x:String>
+                            <x:String>Pillows                                                                     $8.00</x:String>
+                            <x:String>Large Pillows                                                        $12.00</x:String>
+                            <x:String>Down Pillows                                                        $16.00</x:String>
+                            <x:String>Down Jacket                                                         $14.00</x:String>
+                            <x:String>Small Bath Mat                                                       $5.00</x:String>
+                            <x:String>Medium Bath Mat                                                $10.00</x:String>
+                            <x:String>Large Bath Mat                                                     $15.00</x:String>
+                            <x:String>Small Rug                                                                $5.00</x:String>
+                            <x:String>Large Rug                                                              $15.00</x:String>
+                            <x:String>Heavy Large Rug                                                  $20.00</x:String>
+                            <x:String>Extra Dirty Wash                                                     $2.00</x:String>
+                            <x:String>Seperate Wash                                                        $2.00</x:String>
+                            <x:String>Sleeing Bags                                                         $12.00</x:String>
+
+
+
+
+
+
+
+
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                    <Button Text="Place New Order" FontSize="Title" Clicked="NavigateButton_OnClicked" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="5" BorderWidth="2" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

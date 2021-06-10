@@ -1,0 +1,9 @@
+Website for Portfolio
+
+Showcase:
+-projects
+-tutorials
+-code
+-host?
+-front end? html/css
+-backend? react native

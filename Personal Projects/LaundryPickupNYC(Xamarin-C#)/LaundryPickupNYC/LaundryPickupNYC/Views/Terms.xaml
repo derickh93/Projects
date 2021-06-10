@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LaundryPickupNYC"
+             x:Class="LaundryPickupNYC.Views.Terms">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="white">
+            <Frame BackgroundColor="White" Padding="2" CornerRadius="0">
+                <AbsoluteLayout>
+                    <Label Text="Terms" HorizontalTextAlignment="Center" TextColor="#1c2f74" FontSize="18" AbsoluteLayout.LayoutBounds="150,5,110,45"/>
+                    <Image Source="{local:ImageResource LaundryPickupNYC.Images.logosmall.jpeg}" AbsoluteLayout.LayoutBounds="350,0,50,50"
+               HeightRequest="40" />
+                </AbsoluteLayout>
+            </Frame>
+            <StackLayout Margin="20,35,20,20">
+                <ListView SeparatorVisibility="Default" SeparatorColor="#1c2f74">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>The Contract</x:String>
+                            <x:String>Definitions</x:String>
+                            <x:String>Placing an order</x:String>
+                            <x:String>Changes to your order</x:String>
+                            <x:String>Cancelling or Rescheduling your Order</x:String>
+                            <x:String>Our rights to cancel your Order</x:String>
+                            <x:String>Collection and redelivery</x:String>
+                            <x:String>Service standards</x:String>
+                            <x:String>If there is a problem with the services</x:String>
+                            <x:String>Price and payment</x:String>
+                            <x:String>Our liability to you</x:String>
+                            <x:String>Events Outside Our Control</x:String>
+                            <x:String>Information about us and how to contact us</x:String>
+                            <x:String>How we may use your personal information</x:String>
+                            <x:String>Quality guarantee</x:String>
+                            <x:String>Re-cleaning policy</x:String>
+                            <x:String>Vouchers and promotions</x:String>
+                            <x:String>Other important terms</x:String>
+                            <x:String>Prepaid items</x:String>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="End" Padding="10">
+                    <Button Text="Place New Order" Clicked="NavigateBook_OnClicked" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="100" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

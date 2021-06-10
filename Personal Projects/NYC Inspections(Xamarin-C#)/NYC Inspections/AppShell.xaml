@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:NYC_Inspections.Views"
+       Title="NYC_Inspections"
+       x:Class="NYC_Inspections.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="skyline.jpg"
+                   Opacity="0.6" />
+                <Label Text="NYC Inspection Lookup"
+                   TextColor="#dfbd5c"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <!--<ShellItem Route="splash">
+        <ShellContent ContentTemplate="{DataTemplate local:SplashScreen}" />
+    </ShellItem>-->
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+        <ShellSection x:Name="listItem" Route="list" Title="List" Icon="list.png">
+            <ShellContent Title="List" Icon="list.png" ContentTemplate="{DataTemplate local:List}" />
+        </ShellSection>
+
+    </FlyoutItem>
+
+
+</Shell>

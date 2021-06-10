@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.Home">
+
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="white">
+            <Frame BackgroundColor="White" Padding="2" CornerRadius="0">
+                <AbsoluteLayout >
+                    <Label Text="Log In" HorizontalTextAlignment="Center" TextColor="#1c2f74" FontSize="18" AbsoluteLayout.LayoutBounds="165,5,75,35"/>
+                    <Image Source="{local:ImageResource App1.Images.logosmall.jpeg}" AbsoluteLayout.LayoutBounds="350,0,50,50"
+               HeightRequest="40" />
+                </AbsoluteLayout>
+            </Frame>
+            <StackLayout Margin="20,35,20,20">
+                <Image Source="{local:ImageResource App1.Images.logo.jpg}"
+               HeightRequest="150" />
+            </StackLayout>
+            <Label Text="Laundry Pickup NYC" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10" TextColor="#1c2f74"/>
+            <Entry x:Name="UserLoginEmail" Placeholder="Email" PlaceholderColor="Gray" TextColor="Black"/>
+            <Entry x:Name="UserLoginPassword" Placeholder="Password" PlaceholderColor="Gray" TextColor="Black" IsPassword="true"/>
+            <Button Text="Log In" Clicked="loginbutton_Clicked" FontSize="Title" Padding="30,10,30,10" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="5" BorderWidth="2" HorizontalOptions="CenterAndExpand"/>
+            <Label>Text=""</Label>
+            <Label Text="Forgot Username/Password"
+               TextColor="Blue"
+               TextDecorations="Underline"
+               HorizontalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label>
+                Text=""
+            </Label>
+
+            <Button Text="Sign Up" Clicked="signupbutton"  Padding="30,10,30,10" BackgroundColor="#1c2f74" TextColor="#dfbd5c" CornerRadius="5" BorderWidth="2" HorizontalOptions="CenterAndExpand"/>
+
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

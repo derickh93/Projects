@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Lottery_App.Views"
+       Title="Lottery_App"
+       x:Class="Lottery_App.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="background.jpg"
+                   Opacity="0.6" />
+                <Label Text="Laundry Pickup NYC"
+                   TextColor="#dfbd5c"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <!--<ShellItem Route="splash">
+        <ShellContent ContentTemplate="{DataTemplate local:SplashScreen}" />
+    </ShellItem>-->
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+        <ShellSection x:Name="homeItem" Route="home" Title="Home" Icon="home.png">
+            <ShellContent Title="Number Generator" Icon="home.png" ContentTemplate="{DataTemplate local:HomePage}" />
+        </ShellSection>
+
+        <!--<ShellSection x:Name="powerItem" Route="home" Title="PowerBall" Icon="home.png">
+            <ShellContent Title="Number Generator" Icon="home.png" ContentTemplate="{DataTemplate local:HomePage}" />
+        </ShellSection>
+
+        <ShellSection x:Name="megaItem" Route="home" Title="Megamillions" Icon="home.png">
+            <ShellContent Title="Number Generator" Icon="home.png" ContentTemplate="{DataTemplate local:HomePage}" />
+        </ShellSection>-->
+
+        <ShellSection x:Name="numGItem" Route="home" Title="Number Generator" Icon="home.png">
+            <ShellContent Title="Number Generator" Icon="home.png" ContentTemplate="{DataTemplate local:NumberGenerator}" />
+        </ShellSection>
+
+        <ShellSection x:Name="analyticsItem" Route="analytics" Title="Analytics" Icon="m.png">
+            <ShellContent Title="Analytics" Icon="m.png" ContentTemplate="{DataTemplate local:Analytics}" />
+        </ShellSection>
+
+        <ShellSection x:Name="addictionItem" Route="addiction" Title="Addiction Help" Icon="p.png">
+            <ShellContent Title="Addiction Help" Icon="p.png" ContentTemplate="{DataTemplate local:AddictionHelp}" />
+        </ShellSection>
+
+
+        <ShellSection x:Name="aboutItem" Route="about" Title="About Us" Icon="p.png">
+            <ShellContent Title="About Us" Icon="p.png" ContentTemplate="{DataTemplate local:AboutUs}" />
+        </ShellSection>
+
+
+        <ShellSection x:Name="contactItem" Route="contact" Title="Contact" Icon="p.png">
+            <ShellContent Title="Contact" Icon="p.png" ContentTemplate="{DataTemplate local:Contact}" />
+        </ShellSection>
+
+    </FlyoutItem>
+
+</Shell>

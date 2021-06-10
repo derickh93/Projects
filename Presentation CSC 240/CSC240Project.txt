@@ -1,0 +1,34 @@
+https://developer.android.com/guide/topics/sensors/sensors_overview.html
+
+https://developer.android.com/guide/topics/sensors/sensors_motion.html
+
+https://www.youtube.com/watch?v=pkT7DU1Yo9Q
+
+https://www.youtube.com/watch?v=Rda_5s4rObQ
+
+-sensor framework:
+-sensor manager:
+
+//main activity- implements SensorEventListener
+
+//logt ENTER
+private static final String TAG = "MainActivity";
+private SensorManager sensorManager;
+Sensor accelerometer;
+
+//onCreate
+Log.d(TAG, "onCreate: Initalizing Sensor Services");
+sensorManager = (SensorManager) getSystemServices(Context.SENSOR_SERVICE);
+accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+sensorManager.registerListener(MainActivity.this, accelerometer,SensorManager.SENSOR_DELAY_NORMAL);
+Log.d(TAG,"onCreate: Registered accelerometer Listener");
+
+//implement onAccuracyChanged and onSensorChanged
+
+public void onAccuracyChanged(Sensor sensor, int i) {
+}
+
+public void onSensorChanged(SensorEvent sensorEvent) {
+log.d(TAG,"onSensorChanged X: " + sensorEvent.values[0] + " Y: " + 
+sensorEvent.values[1] + " Z: " + sensorEvent.values[2]; 
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:NYC_Restaurant_Inspections.Views"
+       Title="NYC_Restaurant_Inspections"
+       x:Class="NYC_Restaurant_Inspections.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+
+        <ShellSection x:Name="homeItem" Route="home" Title="HOME" Icon="home.png">
+            <ShellContent Title="Home" Icon="home.png" ContentTemplate="{DataTemplate local:List}" />
+        </ShellSection>
+
+        <ShellSection x:Name="pricingItem" Route="price" Title="PRICE" Icon="price.png">
+            <ShellContent Title="Pricing" Icon="price.png" ContentTemplate="{DataTemplate local:Map}" />
+        </ShellSection>
+
+    </FlyoutItem>
+
+</Shell>

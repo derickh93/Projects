@@ -1,0 +1,8 @@
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\optimized\
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\NYC Restaurant Inspections.iOS.csprojAssemblyReference.cache
+C:\Users\cooli\Desktop\NYC Restaurant Inspections\NYC Restaurant Inspections.iOS\obj\iPhone\Debug\NYC Restaurant Inspections.iOS.csproj.CoreCompileInputs.cache

@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\contact.png" />
+    <None Remove="Images\faq.png" />
+    <None Remove="Images\home.png" />
+    <None Remove="Images\howitworks.png" />
+    <None Remove="Images\logo.jpeg" />
+    <None Remove="Images\logo.jpg" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\logosmall.jpeg" />
+    <None Remove="Images\logosmall.png" />
+    <None Remove="Images\password.png" />
+    <None Remove="Images\price.png" />
+    <None Remove="Images\signup.png" />
+    <None Remove="Images\tandc.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\contact.png" />
+    <EmbeddedResource Include="Images\faq.png" />
+    <EmbeddedResource Include="Images\home.png" />
+    <EmbeddedResource Include="Images\howitworks.png" />
+    <EmbeddedResource Include="Images\logo.jpg" />
+    <EmbeddedResource Include="Images\logosmall.jpeg" />
+    <EmbeddedResource Include="Images\logosmall.png" />
+    <EmbeddedResource Include="Images\password.png" />
+    <EmbeddedResource Include="Images\price.png" />
+    <EmbeddedResource Include="Images\signup.png" />
+    <EmbeddedResource Include="Images\tandc.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="ThriveGmbH.BottomNavigationBar.LATEST" Version="1.0.6" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms.GoogleMaps" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Contact_US.xaml.cs">
+      <DependentUpon>Contact_US.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Booking.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Contact_US.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FAQ.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Home.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HowItWorks.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pricing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RegPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ResetPW.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WashnFold.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

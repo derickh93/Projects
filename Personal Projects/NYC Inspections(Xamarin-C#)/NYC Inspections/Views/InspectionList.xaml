@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NYC_Inspections.Views.InspectionList">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Business Information" TextColor="blue"></Label>
+
+            <Image x:Name="image" HeightRequest="150"></Image>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name: " TextColor="blue"></Label>
+                <Label x:Name="name" TextColor="blue"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Address: " TextColor="blue"></Label>
+                <Label x:Name="address" TextColor="blue"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Food Type: " TextColor="blue"></Label>
+                <Label x:Name="foodType" TextColor="blue"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Permit Number: " TextColor="blue"></Label>
+                <Label x:Name="permitNumber" TextColor="blue"></Label>
+            </StackLayout>
+
+
+
+            <ListView x:Name="listRestaurants" SeparatorVisibility="Default" SeparatorColor="DarkGoldenrod">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding InspectionDate}" TextColor="Black"
+                                  Detail="{Binding Detail}" DetailColor="Black" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
